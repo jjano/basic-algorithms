@@ -79,6 +79,6 @@ int main()
 {
     int t[10]= {1 , 7, 8, 9, 6, 2, 4, 5, 3, 10};
     int length=10;
-    heapsort(t,10);
+    heapsort(t,length);
     printheap(t,length);
 }
